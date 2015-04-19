@@ -7,7 +7,7 @@ http://challengepost.com/software/pizzaplay
 
 ## How to Use
 
-clone
-run npm install
-	cp example.config.js config.js
-put your Spotify OAuth stuff in config.js
+1. clone
+2. run npm install
+3. cp example.config.js config.js
+4. put your Spotify OAuth stuff in config.js
