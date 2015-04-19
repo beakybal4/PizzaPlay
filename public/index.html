@@ -20,15 +20,15 @@
 					<span ng-repeat="topping in toppings" class="btn btn-default topping">{{ topping }}</span>
 				</span>
 
-				<input ng-model="user" placeholder="Enter Your Spotify Username" class="form-control" ng-enter="go()">
-				<button ng-click="go()" class="btn btn-primary btn-lg btn-success">Go</button>
+				<input ng-model="user" placeholder="Enter Your Spotify Username" class="form-control" ng-enter="go()" ng-hide="username">
+				<button ng-click="go()" class="btn btn-primary btn-lg btn-success" ng-hide="username">Go</button>
 
 				<select ng-model="playlist" ng-show="playlists" class="form-control playlists">
 					<option value="" disabled selected>Select a specific playlist</option>
 					<option ng-repeat="playlist in playlists" value="{{playlist.id}}">{{playlist.name}}</option>
 				</select>
 
-				<button ng-click="goPlaylist()" ng-show="playlists" class="btn btn-success">Go Playlist</button>
+				<button ng-click="goPlaylist()" ng-show="playlists" class="btn btn-success">Go</button>
 
 			</div>
 		</div>
