@@ -16,7 +16,7 @@
 				<!-- <span ng-hide="toppings" class="baelor">"{{ inspiration }}"</span> -->
 				<h4 ng-show="!toppings && notFirst">No Toppings Found :(</h4>
 				<span ng-show="toppings" class="toppings">
-					<h3>Based on your {{ playlistname  ? "" : "Starred" }} Playlist, your pizza toppings are:</h3>
+					<h3>Based on {{ username+"'s" || "Your" }} {{ playlistname  ? "" : "Starred" }} Playlist, your pizza toppings are:</h3>
 					<span ng-repeat="topping in toppings" class="btn btn-default topping">{{ topping }}</span>
 				</span>
 

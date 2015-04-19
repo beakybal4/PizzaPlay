@@ -6,8 +6,8 @@ body{
 	margin: auto;
 	display: table;
 	height: 100%;
-	padding: 25px;
-
+	padding: 50px;
+	border-radius: 100%;
 	margin-top: 50px;
 }
 .heading{
