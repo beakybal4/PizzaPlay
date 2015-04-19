@@ -2,6 +2,9 @@
 
 For http://brickhack.io 
 
+Demo:
+http://pizzaplay.joshbalfour.co.uk/
+
 Submission:
 http://challengepost.com/software/pizzaplay
 
@@ -11,3 +14,4 @@ http://challengepost.com/software/pizzaplay
 2. run npm install
 3. cp example.config.js config.js
 4. put your Spotify OAuth stuff in config.js
+
