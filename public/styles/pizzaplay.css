@@ -1,0 +1,82 @@
+body{
+	height: 100%;
+}
+.bg-img{
+	position: relative;
+	margin: auto;
+	display: table;
+	height: 100%;
+	padding: 25px;
+
+	margin-top: 50px;
+}
+.heading{
+	position: absolute;
+	top: 25px;
+	text-align: center;
+	width: 100%;
+	font-family: 'Courgette', cursive;
+}
+h1.heading{
+	font-size: 88px;
+}
+h2.heading{
+	top: 150px;
+}
+.middle{
+	display: table-cell;
+	vertical-align: middle;
+	z-index: 9;
+	position: relative;
+	text-align: center;
+	color: white;
+
+	height: 600px;
+	width: 600px;
+}
+.spotify-bg, .pizza-bg{
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.spotify-bg{
+	z-index: -1;
+	background-image: url(../images/spotify.svg);
+	opacity: 0.8;
+
+	transition: opacity 0.5s;
+	-webkit-transition: opacity 0.5s;
+}
+
+.pizza-bg{
+	z-index: -2;
+	background-image: url(../images/pizza.png);
+}
+.toppings{
+	display: block;
+	margin-bottom: 25px;
+}
+.toppings:after{
+	clear: both;
+	content: '';
+	display: table;
+}
+.topping{
+	margin-left: 15px;
+}
+.topping:first-child{
+	margin-left: 0;
+}
+.baelor{
+	font-size: 28px;
+}
+.playlists{
+	margin-top: 15px;
+}
+.btn{
+	margin-top: 10px;
+}
