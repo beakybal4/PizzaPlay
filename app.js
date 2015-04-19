@@ -4,6 +4,8 @@ var config = require('./config.js');
 var express= require('express');
 var app = express();
 
+var refresh_token = config.refresh_token;
+
 app.use(express.static(__dirname + '/public'))
 
 var toppings  = [
